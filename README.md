@@ -3,13 +3,13 @@
 </h1>
 
 <h3 align="center">
-  Iniciando back-end do GoBarber
+  Continuando API do GoBarber
 </h3>
 
-<p align="center">Código do segundo módulo do <a href="https://rocketseat.com.br/bootcamp">Bootcamp GoStack</a> 🎓</p>
+<p align="center">Código do terceiro módulo do <a href="https://rocketseat.com.br/bootcamp">Bootcamp GoStack</a> 🎓</p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-02?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-03?color=%2304D361">
 
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
@@ -17,8 +17,8 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-  <a href="https://github.com/Rocketseat/bootcamp-gostack-02/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-gostack-02?style=social">
+  <a href="https://github.com/Rocketseat/bootcamp-gostack-03/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-gostack-03?style=social">
   </a>
 </p>
 
@@ -31,12 +31,13 @@
 ## 🚀 Instalação e execução
 
 1. Faça um clone desse repositório;
-2. Entre na pasta rodando `cd bootcamp-gostack-02`;
+2. Entre na pasta rodando `cd bootcamp-gostack-03`;
 3. Rode `yarn` para instalar as dependências;
 4. Crie um banco de dados no `postgres` com o nome de `gobarber`;
-5. Altere as credencias dentro de `/src/app/config/database.js`;
-6. Rode `yarn sequelize db:migrate` para executar as migrations;
-7. Rode `yarn dev` para iniciar o servidor.
+5. Renomeie o arquivo `.env.example` para `.env`;
+6. Coloque as suas credenciais dentro do `.env`;
+7. Rode `yarn sequelize db:migrate` para executar as migrations;
+8. Rode `yarn dev` para iniciar o servidor.
 
 ## 🤔 Como contribuir
 

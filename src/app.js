@@ -36,7 +36,10 @@ class App {
 
   middlewares() {
     this.server.use(Sentry.Handlers.requestHandler());
-    this.server.use(cors());
+    this.server.use(
+      cors()
+      // Inside cors: { origin: 'http://dominio-frontend.com' }
+    );
     // Habilita o Express para receber requisições JSON, equivalente ao uso do body-parser
     this.server.use(express.json());
     // Permite disponibilizar arquivos estáticos via determinada URL

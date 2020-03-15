@@ -484,3 +484,20 @@
      config/sentry.js - SENTRY_DSN
 
 141. Add a `.env.example` to facilitate in sharing instructions to run app
+
+## Atualização da Fase 05 - Módulo 09 Gobarber Web
+
+### Lesson: "Ajustes na API"
+
+142. Install cors to permite other apps access the api
+     `yarn add cors`
+
+143. Import cors in App.js and instantiate as a Middleware
+
+144. In SessionController.js, include data of File in User, and return avatar and
+     provider in JSON
+
+145. In UserController.js, include data of File in User update, and return avatar
+     in JSON too
+
+146. In ScheduleController.js, include data of User to return with schedule data
